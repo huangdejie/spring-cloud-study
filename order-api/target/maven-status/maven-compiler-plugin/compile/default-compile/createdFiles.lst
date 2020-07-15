@@ -1,0 +1,3 @@
+org/example/clients/OrderServiceFeign.class
+org/example/OrderService.class
+org/example/dto/OrderDto.class

@@ -31,3 +31,13 @@ build/
 ### VS Code ###
 .vscode/
 /.idea/
+/.idea/
+/.idea/inspectionProfiles/
+/.idea/$CACHE_FILE$
+/.idea/.gitignore
+/.idea/compiler.xml
+/.idea/dictionaries
+/.idea/encodings.xml
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/workspace.xml

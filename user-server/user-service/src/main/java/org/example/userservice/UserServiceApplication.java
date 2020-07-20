@@ -4,10 +4,13 @@ import org.example.userservice.importBeanDefinitionRegistrardemo.DJRegistra;
 import org.example.userservice.importBeanDefinitionRegistrardemo.DemoService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.ApplicationContext;
 
 @DJRegistra
+//hystrix
+@EnableCircuitBreaker
 @EnableFeignClients(basePackages = "org.example.clients")
 @SpringBootApplication
 public class UserServiceApplication {

@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="order-api" />
+        <module name="eureka-server-1111" />
         <module name="order-service" />
-        <module name="user-server" />
-        <module name="order-server" />
         <module name="user-service" />
+        <module name="hystrix-dashboard" />
+        <module name="order-api" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="eureka-server" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -11,6 +11,8 @@
 web/src/main/java/cn/memedai/web/MyTestController.java
 **/athena
 **/hermes
+*.idea/*
+*encodings.xml
 
 
 # eclipse specific git ignore

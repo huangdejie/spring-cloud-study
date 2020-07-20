@@ -8,6 +8,7 @@
   <artifactId>spring-cloud-study</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
+    <module>eureka-server-1111</module>
     <module>order-api</module>
     <module>order-server</module>
     <module>user-server</module>

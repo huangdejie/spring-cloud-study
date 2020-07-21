@@ -12,6 +12,7 @@
     <module>order-api</module>
     <module>order-server</module>
     <module>user-server</module>
+    <module>hystrix-dashboard</module>
   </modules>
 
   <packaging>pom</packaging>

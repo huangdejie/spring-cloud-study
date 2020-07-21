@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server-1111" />
-        <module name="order-service" />
         <module name="user-service" />
+        <module name="order-service" />
         <module name="hystrix-dashboard" />
         <module name="order-api" />
       </profile>
